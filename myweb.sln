@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "myweb", "myweb\", "{6BAD0B39-5B89-4DB8-8132-E705C78B116F}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		ProjectReferences = "{C771F927-8E36-4974-8328-3253597FE58C}|YFModel.dll;{7CDB2F4A-C7F1-4BA7-BE83-C402F7518ED5}|YFBLL.dll;{EF425D44-B89D-4588-B62F-F0543ACF164F}|YFDAL.dll;{4F5A11CB-15BB-43C4-B6DB-B27A16D0C5A3}|YFUtility.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/myweb"
 		Debug.AspNetCompiler.PhysicalPath = "myweb\"
@@ -20,6 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "myweb", "myweb\", "{6BAD0B3
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "52773"
+		SlnRelativePath = "myweb\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -60,5 +63,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81E506BC-7D2C-482B-A8F5-B45037D5C060}
 	EndGlobalSection
 EndGlobal

@@ -35,7 +35,7 @@
                         if (id != null)
                         {
                             YF.BLL.Cart.delete(int.Parse(id));
-                            YF.JsHelper.AlertAndRedirect("delete successfully!!!", "/myweb/user/cart.aspx");
+                            YF.JsHelper.AlertAndRedirect("delete successfully!!!", "/user/cart.aspx");
                         }
                         // 获取当前用户信息
                         YF.Model.User myuser = new YF.Model.User();

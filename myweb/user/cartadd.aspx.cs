@@ -29,31 +29,31 @@ public partial class user_cartadd : System.Web.UI.Page
             // 当图书数量为0时，退出，重新选购
             if (books.Num <= 0)
             {
-                YF.JsHelper.AlertAndRedirect("fail to add cart! Connect with shop!", "/myweb/bookshop.aspx");//库存为0，添加失败返回图书详情页面
+                YF.JsHelper.AlertAndRedirect("库存不足，请联系商家补货!", "/bookshop.aspx");//库存为0，添加失败返回图书详情页面
             }
 
             if (YF.BLL.Cart.list(books.Id, myuser.Id, 0).Count > 0) // 当不是第一次插入的时候，只是更新数量就可以
             {
                 YF.BLL.Cart.updatenum(books.Id, myuser.Id, 0);//修改数量
-                YF.JsHelper.AlertAndRedirect("add cart successfully!!!", "/myweb/user/cart.aspx");//3，添加成功返回购物车页面
+                YF.JsHelper.AlertAndRedirect("加入购物车成功!!!", "/user/cart.aspx");//3，添加成功返回购物车页面
             }
             else // 第一次插入
             {
                 if (YF.BLL.Cart.addbooks(cart))
                 {
 
-                    YF.JsHelper.AlertAndRedirect("add cart successfully!!!", "/myweb/user/cart.aspx");
+                    YF.JsHelper.AlertAndRedirect("加入购物车成功!!!", "/user/cart.aspx");
                 }
                 else
                 {
-                    YF.JsHelper.AlertAndRedirect("fail to add cart successfully!!!", "/myweb/books.aspx");
+                    YF.JsHelper.AlertAndRedirect("添加失败!!!", "/books.aspx");
                 }
             }
             
         }
         else
         {
-            YF.JsHelper.AlertAndRedirect("no member!please login in!!!", "/myweb/login.aspx");
+            YF.JsHelper.AlertAndRedirect("no member!please login in!!!", "/login.aspx");
         }
 
     }

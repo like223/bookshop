@@ -33,42 +33,17 @@ public partial class serachbooks : System.Web.UI.Page
 
     protected void procedure_Click(object sender, EventArgs e)
     {
+        string s = Price.Text;
+        string sql = "select * from t_book where bookname like '%" + s + "%'";
         SqlConnection myConn = new SqlConnection(connStr);
+        SqlDataAdapter myDa = new SqlDataAdapter(sql, myConn);
+        myConn.Open();
+        DataSet myDataSet = new DataSet();
+        myDa.Fill(myDataSet);
+        GridView1.DataSource = myDataSet.Tables[0];
+        GridView1.DataBind();
+        myConn.Close();
 
-    ​    SqlCommand myCommand = new SqlCommand("searchBook", myConn);
-​
-        myCommand.CommandType = CommandType.StoredProcedure;
-​    
-        myCommand.Parameters.Add("@price", SqlDbType.Float);
-
-
-    ​    myCommand.Parameters["@price"].Value = float.Parse(Price.Text);
-
-    ​    myCommand.Parameters["@price"].Direction = ParameterDirection.Input;
-
-    ​    //myCommand.Parameters.Add("@rowcount", SqlDbType.Int);
-
-    ​    //myCommand.Parameters["@rowcount"].Direction = ParameterDirection.Output;
-
-    ​    myConn.Open();
-
-    ​    SqlDataAdapter myDa = new SqlDataAdapter();
-
-    ​    myDa.SelectCommand = myCommand;
-
-    ​    DataSet myDataSet = new DataSet();
-
-    ​    myDa.Fill(myDataSet);
-
-    ​    GridView1.DataSource = myDataSet.Tables[0];
-
-    ​    GridView1.DataBind();
-            ​    
-        myCommand .ExecuteNonQuery();
-
-    ​    //Response.Write("查到" + myCommand.Parameters["@rowcount"].Value.ToString ()  + "条记录");
-
-    ​    myConn.Close();
     }
     /// <summary>
     /// 翻页功能

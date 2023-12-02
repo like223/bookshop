@@ -3,3 +3,9 @@ C:\xiaobai\YFUtility\bin\Debug\YFUtility.pdb
 C:\xiaobai\YFUtility\obj\Debug\ResolveAssemblyReference.cache
 C:\xiaobai\YFUtility\obj\Debug\YFUtility.dll
 C:\xiaobai\YFUtility\obj\Debug\YFUtility.pdb
+D:\Code\bookshop\YFUtility\bin\Debug\YFUtility.dll
+D:\Code\bookshop\YFUtility\bin\Debug\YFUtility.pdb
+D:\Code\bookshop\YFUtility\obj\Debug\YFUtility.csproj.AssemblyReference.cache
+D:\Code\bookshop\YFUtility\obj\Debug\YFUtility.csproj.CoreCompileInputs.cache
+D:\Code\bookshop\YFUtility\obj\Debug\YFUtility.dll
+D:\Code\bookshop\YFUtility\obj\Debug\YFUtility.pdb

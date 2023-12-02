@@ -3,3 +3,9 @@ C:\xiaobai\YFModel\bin\Debug\YFModel.pdb
 C:\xiaobai\YFModel\obj\Debug\ResolveAssemblyReference.cache
 C:\xiaobai\YFModel\obj\Debug\YFModel.dll
 C:\xiaobai\YFModel\obj\Debug\YFModel.pdb
+D:\Code\bookshop\YFModel\bin\Debug\YFModel.dll
+D:\Code\bookshop\YFModel\bin\Debug\YFModel.pdb
+D:\Code\bookshop\YFModel\obj\Debug\YFModel.csproj.AssemblyReference.cache
+D:\Code\bookshop\YFModel\obj\Debug\YFModel.csproj.CoreCompileInputs.cache
+D:\Code\bookshop\YFModel\obj\Debug\YFModel.dll
+D:\Code\bookshop\YFModel\obj\Debug\YFModel.pdb

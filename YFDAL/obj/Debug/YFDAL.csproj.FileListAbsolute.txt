@@ -7,3 +7,14 @@ C:\xiaobai\YFDAL\bin\Debug\YFModel.dll
 C:\xiaobai\YFDAL\bin\Debug\YFUtility.dll
 C:\xiaobai\YFDAL\bin\Debug\YFModel.pdb
 C:\xiaobai\YFDAL\bin\Debug\YFUtility.pdb
+D:\Code\bookshop\YFDAL\bin\Debug\YFDAL.dll
+D:\Code\bookshop\YFDAL\bin\Debug\YFDAL.pdb
+D:\Code\bookshop\YFDAL\bin\Debug\YFModel.dll
+D:\Code\bookshop\YFDAL\bin\Debug\YFUtility.dll
+D:\Code\bookshop\YFDAL\bin\Debug\YFModel.pdb
+D:\Code\bookshop\YFDAL\bin\Debug\YFUtility.pdb
+D:\Code\bookshop\YFDAL\obj\Debug\YFDAL.csproj.AssemblyReference.cache
+D:\Code\bookshop\YFDAL\obj\Debug\YFDAL.csproj.CoreCompileInputs.cache
+D:\Code\bookshop\YFDAL\obj\Debug\YFDAL.csproj.CopyComplete
+D:\Code\bookshop\YFDAL\obj\Debug\YFDAL.dll
+D:\Code\bookshop\YFDAL\obj\Debug\YFDAL.pdb

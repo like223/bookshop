@@ -1,5 +1,0 @@
-C:\xiaobai\YFModel\bin\Debug\YFModel.dll
-C:\xiaobai\YFModel\bin\Debug\YFModel.pdb
-C:\xiaobai\YFModel\obj\Debug\ResolveAssemblyReference.cache
-C:\xiaobai\YFModel\obj\Debug\YFModel.dll
-C:\xiaobai\YFModel\obj\Debug\YFModel.pdb

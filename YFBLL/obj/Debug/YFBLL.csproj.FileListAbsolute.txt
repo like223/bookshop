@@ -9,3 +9,16 @@ C:\xiaobai\YFBLL\bin\Debug\YFUtility.dll
 C:\xiaobai\YFBLL\bin\Debug\YFDAL.pdb
 C:\xiaobai\YFBLL\bin\Debug\YFModel.pdb
 C:\xiaobai\YFBLL\bin\Debug\YFUtility.pdb
+D:\Code\bookshop\YFBLL\bin\Debug\YFBLL.dll
+D:\Code\bookshop\YFBLL\bin\Debug\YFBLL.pdb
+D:\Code\bookshop\YFBLL\bin\Debug\YFDAL.dll
+D:\Code\bookshop\YFBLL\bin\Debug\YFModel.dll
+D:\Code\bookshop\YFBLL\bin\Debug\YFUtility.dll
+D:\Code\bookshop\YFBLL\bin\Debug\YFDAL.pdb
+D:\Code\bookshop\YFBLL\bin\Debug\YFModel.pdb
+D:\Code\bookshop\YFBLL\bin\Debug\YFUtility.pdb
+D:\Code\bookshop\YFBLL\obj\Debug\YFBLL.csproj.AssemblyReference.cache
+D:\Code\bookshop\YFBLL\obj\Debug\YFBLL.csproj.CoreCompileInputs.cache
+D:\Code\bookshop\YFBLL\obj\Debug\YFBLL.csproj.CopyComplete
+D:\Code\bookshop\YFBLL\obj\Debug\YFBLL.dll
+D:\Code\bookshop\YFBLL\obj\Debug\YFBLL.pdb
