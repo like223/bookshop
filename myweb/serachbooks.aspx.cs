@@ -34,7 +34,8 @@ public partial class serachbooks : System.Web.UI.Page
     protected void procedure_Click(object sender, EventArgs e)
     {
         string s = Price.Text;
-        string sql = "select * from t_book where bookname like '%" + s + "%'";
+        string sql = "select * from t_book where bookname like '%" + s + "%'and  num>0 order by price ";
+        if (Order.Checked) sql += "desc";
         SqlConnection myConn = new SqlConnection(connStr);
         SqlDataAdapter myDa = new SqlDataAdapter(sql, myConn);
         myConn.Open();

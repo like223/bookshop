@@ -72,11 +72,11 @@ public partial class user_Order_add : System.Web.UI.Page
             YF.BLL.Order.update(orderid, myuser.Id, 0);
             
 
-            YF.JsHelper.AlertAndRedirect("下单成功", "/myweb/user/order.aspx");
+            YF.JsHelper.AlertAndRedirect("下单成功", "/user/order.aspx");
         }
         else
         {
-            YF.JsHelper.AlertAndRedirect("下单失败", "/myweb/user/Order_add.aspx");
+            YF.JsHelper.AlertAndRedirect("下单失败", "/user/Order_add.aspx");
         }           
     }
 }

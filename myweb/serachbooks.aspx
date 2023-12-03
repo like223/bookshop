@@ -15,6 +15,8 @@
     <div align="center">   
         <tr>
     <td>名称<asp:TextBox ID="Price" runat="server"></asp:TextBox></td>
+     <td>
+         降序<asp:CheckBox ID="Order" runat="server" /></td>
     <td>
         <asp:Button ID="procedure" runat="server" Text="搜索" 
 onclick="procedure_Click" />

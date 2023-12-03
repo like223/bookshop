@@ -17,7 +17,7 @@ public partial class user_member : System.Web.UI.Page
         if (myuser != null)
             this.username.Text = myuser.Username;
         else
-            YF.JsHelper.AlertAndRedirect("no member!please login in", "/myweb/login.aspx");
+            YF.JsHelper.AlertAndRedirect("no member!please login in", "/login.aspx");
         // 判断会员登陆的话，直接跳转到会员中心，否则跳转到登陆界面
     }
 }

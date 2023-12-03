@@ -17,6 +17,6 @@ public partial class user_exit : System.Web.UI.Page
     {
         //当前保存对象清空
         YF.SessionHelper.SetSession("user", null);//把刚刚保存对象的对象赋空就可
-        YF.JsHelper.Redirect("/myweb/login.aspx");
+        YF.JsHelper.Redirect("/login.aspx");
     }
 }

@@ -57,13 +57,28 @@
                 <td class="style3"></td>
                 <!--通过id确定图书-->
                 <td><a href="user/cartadd.aspx?id=<%=Request.QueryString["id"] %>">购买</a></td> 
+                <td><asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                     <asp:Button ID="submit" runat="server" Text="提交评论" onclick="submit_Click" />
+                </td>
             </tr>  
+            
+                   
             
                  
         </table>
 
         <table width="1000" align="center" border="0">
+
             <tr>
+                <td>        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
+    BackColor="#FFFF99" AllowPaging="True" AllowSorting="True" PageSize="4" 
+    onpageindexchanging="GridView1_PageIndexChanging" 
+    onselectedindexchanged="GridView1_SelectedIndexChanged">
+    <Columns>
+        <asp:HyperLinkField DataTextField="username" HeaderText="用户名称"/>
+        <asp:BoundField DataField="comment" HeaderText="评论" />
+    </Columns>
+</asp:GridView></td></br >
                 <td class="text-align:right;"><strong>图书详情:</strong></td>
                 <td class="style1">
                     <asp:Label ID="detail" runat="server" Text="图书详情"></asp:Label>
@@ -71,6 +86,7 @@
             </tr>
         </table>         
     </div>
+        
     <uc2:bottom ID="bottom1" runat="server" />
     </form>
 </body>
