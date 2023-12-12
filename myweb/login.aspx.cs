@@ -23,7 +23,7 @@ public partial class login : System.Web.UI.Page
         }
         else
         {            
-            YF.JsHelper.AlertAndRedirect("warning!!!fail to login!", "login.aspx");
+            YF.JsHelper.AlertAndRedirect("用户名或密码错误", "login.aspx");
         }
     }
     protected void Button2_Click(object sender, EventArgs e)

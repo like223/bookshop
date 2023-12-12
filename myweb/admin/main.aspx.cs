@@ -14,9 +14,10 @@ public partial class admin_main : System.Web.UI.Page
         myuser = (YF.Model.User)YF.SessionHelper.GetSesstion("user"); // 读取我们在login.aspx.cs刚刚保存的值 
 
         // 判断商家登陆的话，直接跳转到管理界面，否则跳转到书店主业
+        if(myuser==null) YF.JsHelper.AlertAndRedirect("未登录", "../login.aspx");
         if (myuser.Role == "shop")
             YF.JsHelper.Alert("Permissions enough!");
         else
-            YF.JsHelper.AlertAndRedirect("Insufficient permissions!", "/myweb/bookShop.aspx");
+            YF.JsHelper.AlertAndRedirect("Insufficient permissions!", "../bookshop.aspx");
     }
 }

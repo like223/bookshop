@@ -30,7 +30,7 @@
                     <td><%=i + 1 %></td>
                     <td><%=list[i].Isbn %></td>
                     <td><%=list[i].Bookname %></td>
-                    <td><img src="img/<%=list[i].Img %>/ " width="100" height="100"/></td>
+                    <td><img src="img/<%=list[i].Img %> " width="100" height="100"/></td>
                     <td><%=list[i].Price %></td>
                     <td><%=list[i].Num %></td>
                     <td><%=list[i].Adddate %></td>

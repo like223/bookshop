@@ -12,5 +12,6 @@ namespace YFModel
         public string comment;
         public  int bookid;
         public int userid;
+        public string bookname;
     }
 }

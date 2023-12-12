@@ -33,7 +33,7 @@ public partial class books : System.Web.UI.Page
     private void gridviewbind()
     {
         SqlConnection myConn = new SqlConnection(connStr);
-        SqlDataAdapter myDa = new SqlDataAdapter("select * from t_comment where bookid="+ Request["id"], myConn);
+        SqlDataAdapter myDa = new SqlDataAdapter("select * from t_comment where bookid="+ Request["id"] +"and delFlag=0", myConn);
         myConn.Open();
         DataSet myDataSet = new DataSet();
         myDa.Fill(myDataSet);
@@ -62,6 +62,7 @@ public partial class books : System.Web.UI.Page
         comment.comment = TextBox1.Text;
         comment.username = myuser.Username;
         comment.bookid = int.Parse(Request["id"]);
+        comment.bookname = bookname.Text;
         CommentService.insert(comment);
         YF.JsHelper.Alert("添加成功");
         Response.AddHeader("Refresh", "0");

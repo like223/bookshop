@@ -15,6 +15,7 @@
                 <tr align ="center"><td><a href="Books.aspx" target="bookshop">书籍管理</td></tr>
                 <tr align ="center"><td><a href="Books_add.aspx" target="bookshop">书籍发布</td></tr>
                 <tr align ="center"><td><a href="ordermanage.aspx" target="bookshop">订单管理</td></tr>
+                <tr align ="center"><td><a href="comment_edit.aspx" target="bookshop">评论管理</td></tr>
             </table>
         </div>
     </form>
